@@ -24,4 +24,5 @@ urlpatterns = [
     path('api/', include('blog.urls')),
     re_path(r'^auth/', include('djoser.urls')),
     re_path(r'^auth/', include('djoser.urls.jwt')),
+    re_path(r'^auth/', include('djoser.urls.authtoken')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
