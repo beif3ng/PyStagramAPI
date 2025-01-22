@@ -1,5 +1,5 @@
-Login: admin
+Login: `admin`, `arsen`
 
-Password: admin
+_password is same as login_
 
 _to verify authentication_
