@@ -14,7 +14,6 @@ class Category(models.Model):
 
 
 class Publication(models.Model):
-
     user = models.ForeignKey(
         User, on_delete=models.CASCADE
     )
