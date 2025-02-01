@@ -18,7 +18,7 @@ services:
     build:
       context: .
       dockerfile: ./docker/django/Dockerfile
-    entrypoint: ["sh", "/app/docker/django/server-entrypoint.sh"]
+    entrypoint: [ "sh", "/app/docker/django/server-entrypoint.sh" ]
     volumes:
       - .:/app
     expose:
