@@ -10,6 +10,7 @@ class CategoryFilter(filters.FilterSet):
         model = Category
         fields = ['name']
 
+
 class PublicationFilter(filters.FilterSet):
     content = filters.CharFilter(lookup_expr='icontains')
 
