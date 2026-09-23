@@ -61,7 +61,7 @@ PyStagramAPI/
 ### Local Setup
 
 ```bash
-git clone https://github.com/Nezdeshniy/PyStagramAPI.git
+git clone https://github.com/beif3ng/PyStagramAPI.git
 cd PyStagramAPI
 cp .env.example .env  # fill in your values
 pip install -r requirements.txt
